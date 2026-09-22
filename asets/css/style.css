@@ -1,0 +1,113 @@
+html{
+    background-color: lightblue;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-color:lightblue;
+    color: black;
+}
+
+header{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+header a{
+    color: white;
+}
+
+header h1{
+    margin: 0px;
+}
+
+nav{
+    margin-top: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.hero{
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.button{
+    display: inline-block;
+    background-color:blue;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section{
+    padding: 20px;
+}
+.contact section{
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    justify-content: center;
+}
+.contact-info,
+.contac-form{
+    width: 40px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+.contac-form form{
+    display: flex;
+    flex-direction: column;
+}
+.contac-form label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.contac-form input,
+.contac-form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contac-form button{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(70, 70, 172);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px gray;
+}
+
+.contact-section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+

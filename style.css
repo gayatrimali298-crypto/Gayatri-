@@ -1,0 +1,164 @@
+html{
+    background-color: lightblue;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-color:lightblue;
+    color: black;
+}
+
+header{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+header a{
+    color: white;
+}
+
+header h1{
+    margin: 0px;
+}
+
+nav{
+    margin-top: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.hero{
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.button{
+    display: inline-block;
+    background-color:blue;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section{
+    padding: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px gray;
+}
+.contact section{
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    justify-content: center;
+}
+.contact-info,
+.contact-form{
+    width: 350px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.contact-form input,
+.contact-form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(70, 70, 172);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* Contact Page */
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px;
+}
+.contact-info{
+    width: 350px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.contact-form{
+    width: 350px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+} 
+.contact-form label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(70, 70, 172);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.profile-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.profile-header img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    object-fit: cover;
+}
